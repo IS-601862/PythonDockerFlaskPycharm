@@ -6,3 +6,6 @@ Homework assignment for hands-on exercise with application setup using Docker, F
 
 ## SQL Data screenshot
 ![pycharm database query](screenshots/query.png)
+
+## Homepage screenshot
+![homepage with cities data and pycharm](screenshots/homepage.png)
