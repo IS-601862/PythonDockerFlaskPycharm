@@ -11,10 +11,10 @@
         <li class="list-group-item">Movie: {{ actor.Movie }}</li>
     </ul>
     <div class="card-body">
-        <a href="/edit/{{actor.id}}" class="card-link btn btn-primary">Edit</a>
+        <a href="/edit/{{actor.ID}}" class="card-link btn btn-primary">Edit</a>
     </div>
 </div>
-<form action="/delete/{{actor.id}}" method="post">
+<form action="/delete/{{actor.ID}}" method="post">
     <button type="submit" class="btn btn-danger">Delete</button>
 </form>
 
