@@ -1,11 +1,11 @@
 CREATE DATABASE oscarWinners;
 use oscarWinners;
 
-CREATE TABLE  IF NOT EXISTS tblFemaleWinners (
+CREATE TABLE IF NOT EXISTS tblFemaleWinners (
     `ID` int AUTO_INCREMENT,
-    `Name` VARCHAR(50) CHARACTER SET utf8,
-    `Age` NUMERIC(6, 4),
-    `Movie` VARCHAR(50) CHARACTER SET utf8,
+    `Name` VARCHAR(255) CHARACTER SET utf8,
+    `Age` NUMERIC(4),
+    `Movie` VARCHAR(255) CHARACTER SET utf8,
     `Year` VARCHAR(4) CHARACTER SET utf8,
     PRIMARY KEY (`ID`)
 );
