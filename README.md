@@ -1,11 +1,20 @@
 # Python Docker Flask on Pycharm
 Homework assignment for hands-on exercise with application setup using Docker, Flask, MySQL and a Postman.
 
-## Postman Screenhot
-![postmant request output](screenshots/postman.png)
+## How to Submit your Project
+Create a new word document that includes the following:
+1. A link to your GitHub repository for a NEW project
+2. Submit a word document with screen shots of the following:
 
-## SQL Data screenshot
-![pycharm database query](screenshots/query.png)
+    1. The project showing that you can view YOUR data tables in pycharm
+    2. YOUR project running correctly in the browser displaying your homepage with your data
+    3. YOUR project running correctly in the browser displaying your data record as a view of one record
+    4. YOUR project running correctly in the browser displaying a new record added to your home page
+    5. YOUR project running correctly in the browser displaying an updated record added to your home
+    page
+    6. YOUR project running correctly in the browser displaying a deleted record added to your home
+    pag
 
-## Homepage screenshot
-![homepage with cities data and pycharm](screenshots/homepage.png)
+
+## File with screenshots
+[Final Project Part 1](screenshots/finalproject_part1.docx)
