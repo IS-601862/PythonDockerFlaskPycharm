@@ -18,7 +18,7 @@ mysql.init_app(app)
 
 @app.route('/', methods=['GET'])
 def index():
-    user = {'username': 'Academy Award for Best Actress Project'}
+    user = {'username': 'Oscar Winners Project'}
     cursor = mysql.connect().cursor()
     cursor.execute('SELECT * FROM tblFemaleWinners')
     result = cursor.fetchall()
@@ -126,7 +126,7 @@ def api_edit(actor_id) -> str:
     return resp
 
 
-@app.route('/api/winners/<int:actor_id>', methods=['DELETE'])
+@app.route('/api/v1/winners/<int:actor_id>', methods=['DELETE'])
 def api_delete(actor_id) -> str:
     cursor = mysql.get_db().cursor()
     sql_delete_query = """DELETE FROM tblFemaleWinners WHERE id = %s """
